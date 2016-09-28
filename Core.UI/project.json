@@ -10,8 +10,9 @@
     ]
   },
   "dependencies": {
-    "CoreProfiler": "1.0.2",
-    "CoreProfiler.Web": "1.0.2",
+    "CoreProfiler": "1.0.3",
+    "CoreProfiler.Web": "1.0.3",
+    "CoreProfiler.Wcf": "1.0.3",
     "Microsoft.AspNetCore.Diagnostics": "1.0.0",
     "Microsoft.AspNetCore.Mvc": "1.0.0",
     "Microsoft.AspNetCore.Server.IISIntegration": "1.0.0",

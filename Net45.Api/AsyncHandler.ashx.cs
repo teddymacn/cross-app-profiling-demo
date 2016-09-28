@@ -47,10 +47,10 @@ namespace Net45.Api
 
                 using (var client = new WcfDemoServiceClient())
                 {
-                    await client.DoWorkAsync("somework");
+                    await client.DoWorkAsync("from Net45.Api.AsyncHandler.ashx");
                 }
 
-                await CallWebRequest("http://" + context.Request.Url.Host + ":" + context.Request.Url.Port + "/Net45Api/TestHandler.ashx");
+                await CallWebRequest("http://127.0.0.1:3002/?from-Net45Api");
             }
         }
 

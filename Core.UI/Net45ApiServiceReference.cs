@@ -36,7 +36,7 @@ namespace Net45.Api
     /// <param name="serviceEndpoint">The endpoint to configure</param>
     /// <param name="clientCredentials">The client credentials</param>
     static partial void ConfigureEndpoint(System.ServiceModel.Description.ServiceEndpoint serviceEndpoint, System.ServiceModel.Description.ClientCredentials clientCredentials);
-        
+
         public WcfDemoServiceClient() : 
                 base(WcfDemoServiceClient.GetDefaultBinding(), WcfDemoServiceClient.GetDefaultEndpointAddress())
         {

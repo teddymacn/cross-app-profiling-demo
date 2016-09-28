@@ -160,15 +160,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="TestHandler.ashx.cs">
-      <DependentUpon>TestHandler.ashx</DependentUpon>
-    </Compile>
     <Compile Include="WcfDemoService.svc.cs">
       <DependentUpon>WcfDemoService.svc</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="TestHandler.ashx" />
     <Content Include="AsyncHandler.ashx" />
     <Content Include="packages.config" />
     <None Include="Service References\DemoService\WcfDemoService.wsdl" />
