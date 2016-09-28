@@ -15,8 +15,8 @@ For instance, in profiling result UI of a Core.UI page request, you can drill do
 
 1. You need to have a windows OS with IIS7+, VS2015 and dotnet core SDK tool v1.0.0+ installed;
 2. Git clone this repo;
-3. Run .\build.ps1 to build the projects;
-4. Open Net45.Api project in VS2015 and press F5 to run it and ensure the site is up running at http://127.0.0.1/Net45Api;
-5. Run .\run_netcore.ps1 to start Core.UI and Core.Api self-hosting apps;
+3. Open Net45.Api project in VS2015 and press F5 to run it and ensure the site is up running at http://127.0.0.1/Net45Api;
+4. Run run_api.cmd to start Core.Api self-hosting app;
+5. Run run_ui.cmd to start Core.UI self-hosting app;
 6. In a browser, visit the home page of Core.UI: http://127.0.0.1:3001;
 7. Follow the instructions on the home page for fun;
