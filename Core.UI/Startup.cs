@@ -1,3 +1,4 @@
+using CoreProfiler.Web;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,6 +24,7 @@ namespace HelloMvc
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCoreProfiler(true);
             app.UseMvc();
         }
     }
