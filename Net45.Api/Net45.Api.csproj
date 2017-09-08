@@ -24,6 +24,7 @@
     <RestorePackages>true</RestorePackages>
     <WcfConfigValidationEnabled>True</WcfConfigValidationEnabled>
     <UseGlobalApplicationHostFile />
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,29 +51,23 @@
       <HintPath>packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="NanoProfiler, Version=2.0.8.4, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
-      <HintPath>packages\NanoProfiler.2.0.8.4\lib\net40\NanoProfiler.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="NanoProfiler, Version=2.1.0.1, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
+      <HintPath>packages\NanoProfiler.2.1.0.1\lib\net40\NanoProfiler.dll</HintPath>
     </Reference>
-    <Reference Include="NanoProfiler.Wcf, Version=2.0.8.4, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
-      <HintPath>packages\NanoProfiler.Wcf.2.0.8.4\lib\net40\NanoProfiler.Wcf.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="NanoProfiler.Wcf, Version=2.1.0.1, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
+      <HintPath>packages\NanoProfiler.Wcf.2.1.0.1\lib\net40\NanoProfiler.Wcf.dll</HintPath>
     </Reference>
-    <Reference Include="NanoProfiler.Web, Version=2.0.8.4, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
-      <HintPath>packages\NanoProfiler.Web.2.0.8.4\lib\net40\NanoProfiler.Web.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="NanoProfiler.Web, Version=2.1.0.1, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
+      <HintPath>packages\NanoProfiler.Web.2.1.0.1\lib\net40\NanoProfiler.Web.dll</HintPath>
     </Reference>
-    <Reference Include="NanoProfiler.Web.Import, Version=2.0.8.4, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
-      <HintPath>packages\NanoProfiler.Web.Import.2.0.8.4\lib\net40\NanoProfiler.Web.Import.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="NanoProfiler.Web.Import, Version=2.1.0.1, Culture=neutral, PublicKeyToken=132fc11abeaff685, processorArchitecture=MSIL">
+      <HintPath>packages\NanoProfiler.Web.Import.2.1.0.1\lib\net40\NanoProfiler.Web.Import.dll</HintPath>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=7.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>packages\Newtonsoft.Json.7.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-      <Private>True</Private>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="slf4net">
       <HintPath>packages\slf4net.0.1.32.1\lib\net35\slf4net.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Data.Linq" />

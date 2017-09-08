@@ -1,8 +1,8 @@
 
+using Core.Api.Models;
 using Microsoft.EntityFrameworkCore;
-using MvcEfSample.Models;
 
-namespace MvcEfSample
+namespace Core.Api
 {
     public class WebsiteDbContext : DbContext
     {

@@ -1,22 +1,21 @@
-using System.IO;
+﻿using System.IO;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Builder;
 
-namespace HelloMvc
+namespace Core.UI
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            var host = new WebHostBuilder()
-                        .UseKestrel()
-                        .UseContentRoot(Directory.GetCurrentDirectory())
-                        .UseIISIntegration()
-                        .UseStartup<Startup>()
-                        .UseUrls("http://127.0.0.1:3001")
-                        .Build();
-
-            host.Run();
+            BuildWebHost(args).Run();
         }
+
+        public static IWebHost BuildWebHost(string[] args) =>
+            WebHost.CreateDefaultBuilder(args)
+                .UseContentRoot(Directory.GetCurrentDirectory())
+                .UseStartup<Startup>()
+                .UseUrls("http://127.0.0.1:3001")
+                .Build();
     }
 }

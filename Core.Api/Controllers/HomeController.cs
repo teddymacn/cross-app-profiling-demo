@@ -5,10 +5,11 @@ using System.Linq;
 using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MvcEfSample.Models;
+using Core.Api.Models;
 using CoreProfiler;
 using CoreProfiler.Web;
 using System.Threading;
+using Core.Api;
 
 namespace MvcEfSample.Controllers
 {
